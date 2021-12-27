@@ -105,6 +105,43 @@ html[data-theme='dark'] .sponsor_wrapper:hover{
   padding-left: 0%;
 }
 
+
+.dropdown-body:hover .dropdown-items{
+  background-color: darkgreen;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+
+.drop a:hover{
+  /* height: 0.8em; */
+  /* padding: 0.5em 0em; */
+  left: 0.5em;
+  top: 1em;
+  /* background-color: rgb(241, 40, 73); */
+  border-radius: 10px;
+  
+}
+
+.drop-1, .drop-2, .drop-3, .navbar-items a{
+  border-radius: 10px;
+}
+.dropdown-items{
+  padding: -1em;
+  top: 4.4em;
+}
+.dropdown-body a{
+  padding: 1em 1em;
+  margin: 2px black;
+}
+
+.dropdown-body:hover .dropdown-btn{
+  margin-bottom: 2px;
+  background-color:rgb(60, 156, 111);
+}
+
 /* Custom Light */
 
 html[data-theme='light']
